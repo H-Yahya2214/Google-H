@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(31, 30, 30);
+    color: rgb(151, 147, 147);;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    width: 100%;
+    margin-right: auto;
+    text-align: right;
+    
+}
+.cont a{
+    color:rgb(151, 147, 147); 
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+.cont a:hover{
+    text-decoration: underline;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    max-width: 400px;
+}
+img{
+    width: 100%;
+    padding: 12px;
+    object-fit: contain;
+}
+form{
+    padding: 10px;
+    margin-bottom:20px ;
+}
+input{
+    background-color: transparent;
+    font-size: 20px;
+    padding: 8px ;
+    width: 100% ;
+    border: none;
+    border-radius: 10px;
+}
+button{/* bgd  msh adra */
+    display: inline-block; 
+    border:  none;  
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(228, 227, 227); 
+    color: rgb(119, 108, 108);
+    text-align: center;
+    margin: 15px 5px;
+}
+.egy{
+    margin-top: 11%;
+    margin-bottom: 3px;
+}
+hr {
+    width: 100%;
+  }
+
+.feet ul{
+    padding: 0;
+    list-style: none;
+}
+.feet li{
+    display: inline-block;
+    margin-top: 6px;
+}
+.feet a{
+    color: rgb(151, 147, 147);;
+    text-decoration: none;
+    padding-right: 15px;
+    
+}
